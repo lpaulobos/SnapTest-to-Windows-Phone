@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="640" VerticalAlignment="Top" Width="400">
+        <Grid>
+            <Button Content="Login" HorizontalAlignment="Left" Margin="83,381,0,0" VerticalAlignment="Top" Height="104" Width="244" Click="Button_Click"/>
+            <TextBox x:Name="Text1" HorizontalAlignment="Left" Margin="10,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="378"/>
+            <TextBox x:Name="Text2" HorizontalAlignment="Left" Margin="10,242,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="378"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,68,0,0" TextWrapping="Wrap" Text="Nome" VerticalAlignment="Top" Height="65" Width="137" FontSize="48"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,177,0,0" TextWrapping="Wrap" Text="Senha" VerticalAlignment="Top" Height="65" Width="137" FontSize="48"/>
+        </Grid>
+    </Border>
+</Page>
